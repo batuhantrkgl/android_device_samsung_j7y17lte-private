@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_j7y17lte.mk
+    $(LOCAL_DIR)/legion_j7y17lte.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_j7y17lte-user \
-    lineage_j7y17lte-userdebug \
-    lineage_j7y17lte-eng
+    legion_j7y17lte-user \
+    legion_j7y17lte-userdebug \
+    legion_j7y17lte-eng
