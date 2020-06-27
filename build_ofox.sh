@@ -17,7 +17,7 @@ Default_Settings() {
     export OF_DISABLE_MIUI_SPECIFIC_FEATURES="1"
 	export OF_DONT_PATCH_ENCRYPTED_DEVICE="1"
     export OF_FL_PATH1="/sys/class/camera/flash/rear_torch_flash"
-    export OF_MAINTAINER="Astrako"
+    export OF_MAINTAINER="Cyph33X"
     export OF_NO_TREBLE_COMPATIBILITY_CHECK="1"
 	export OF_OTA_RES_DECRYPT="1"
   	export OF_USE_MAGISKBOOT_FOR_ALL_PATCHES="1"
