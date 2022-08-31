@@ -21,12 +21,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from j7y17lte device
 $(call inherit-product, device/samsung/j7y17lte/device.mk)
 
-# Inherit some common DotOS stuff.
-$(call inherit-product, vendor/dot/config/common.mk)
+# Inherit some common Lineage stuff.
+$(call inherit-product, vendor/lineage/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := j7y17lte
-PRODUCT_NAME := dot_j7y17lte
+PRODUCT_NAME := lineage_j7y17lte
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := Galaxy J7 2017
 PRODUCT_MANUFACTURER := samsung
